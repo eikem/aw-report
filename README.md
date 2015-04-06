@@ -1,2 +1,10 @@
 # aw-report
-This is a simple currency converter. It reads out a string from the database and converts it into the either default currency (GBP) or a desired currency.
+This is a Command line program to convert a list of transactions from one currency to another and to calculate their total value. The program can either show a list for a specific merchant id or show all the transactions from all the merchants.
+
+#GIT
+
+git clone https://github.com/barbushin/php-console.git php-console
+
+
+#Usage
+Open  
