@@ -11,7 +11,7 @@ To install the program, you can clone the repository and manually invoke compose
     php composer.phar install
 
 #Usage
-Open command line and change into the public folder. You now got the following options:
+Open command line and change into the public folder. You now have the following options:
 
 To show both options to run the program, enter:
     
