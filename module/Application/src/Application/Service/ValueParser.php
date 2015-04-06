@@ -1,6 +1,6 @@
 <?php
 /**
- * Convert Transaction Values to another Currency
+ * Parse a string which contains value and currency
  * @author Eike M
  * @package aw-report Application
  */
