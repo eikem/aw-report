@@ -11,6 +11,21 @@
  * file.
  */
 
+$dbDSN = 'sqlite:' . dirname(__DIR__) . 
+    '/../data/database/aw-transactions.sqlite';
+
 return array(
-    // ...
+    'db' => array(
+        'driver' => 'Pdo',
+        'dsn'    => $dbDSN,
+        'driver_options' => array(
+            PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
+        ),
+    ),
+    'service_manager' => array(
+        'factories' => array(
+            'Zend\Db\Adapter\Adapter'
+                => 'Zend\Db\Adapter\AdapterServiceFactory',
+        ),
+    ),
 );

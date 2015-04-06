@@ -1,10 +1,7 @@
 <?php
 /**
- * Zend Framework (http://framework.zend.com/)
- *
- * @link      http://github.com/zendframework/ZendSkeletonApplication for the canonical source repository
- * @copyright Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd New BSD License
+ * AW-Report Convert Transaction Values to another Currency
+ * @package aw-report Application
  */
 
 return array(
@@ -52,6 +49,9 @@ return array(
             ),
         ),
     ),
+    
+
+    
     'service_manager' => array(
         'abstract_factories' => array(
             'Zend\Cache\Service\StorageCacheAbstractServiceFactory',
@@ -60,6 +60,7 @@ return array(
         'aliases' => array(
             'translator' => 'MvcTranslator',
         ),
+        
     ),
     'translator' => array(
         'locale' => 'en_US',
@@ -75,6 +76,8 @@ return array(
         'invokables' => array(
             'Application\Controller\Index' => 'Application\Controller\IndexController'
         ),
+    
+         
     ),
     'view_manager' => array(
         'display_not_found_reason' => true,
@@ -95,7 +98,25 @@ return array(
     // Placeholder for console routes
     'console' => array(
         'router' => array(
-            'routes' => array(
+            'routes' => array(               
+                'show transactions' => array(
+                    'options' => array(
+                        'route'    => 'show transactions [<currency>]',
+                        'defaults' => array(
+                            'controller' => 'Application\Controller\Index',
+                            'action'     => 'show-all-transactions'
+                        ),
+                    ),
+                ),
+                'show merchant' => array(
+                    'options' => array(
+                        'route'    => 'show merchant <merchantID> [<currency>]',
+                        'defaults' => array(
+                            'controller' => 'Application\Controller\Index',
+                            'action'     => 'show-merchant-transaction'
+                        ),
+                    ),
+                ),
             ),
         ),
     ),
