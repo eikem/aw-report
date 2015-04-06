@@ -19,8 +19,7 @@ To show all transaction from a merchant with the id 1 enter:
 
     php index.php show merchant 1
 
-To see the other merchant, just change the id 1 to 2. The total transaction values will be converted to the default currency GBP which is the default. If you would like to
-see the total in a different currency, add the ISO Currency at the end. F.e:
+To see the other merchant, just change the id 1 to 2. The total transaction values will be converted to the default currency GBP. If you would like to see the total in a different currency, add the ISO Currency at the end. F.e:
 
     php index.php show merchant 1 EUR
 
