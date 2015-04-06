@@ -18,15 +18,4 @@ class ValueParserTest extends PHPUnit_Framework_TestCase
         $parser = new ValueParser();
         $this->assertSame('GBP',$parser->formatCurrencyToIso('£'));
     }
-
-    
-    
-    // NOT working yet
-    public function testExeptionIsThrownIfNoISOCodeFound()
-    {
-        $parser = new ValueParser();
-        
-       
-    }
-  
 }
