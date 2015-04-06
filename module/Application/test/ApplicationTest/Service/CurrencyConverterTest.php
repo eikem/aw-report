@@ -2,7 +2,6 @@
 namespace ApplicationTest;
 
 use PHPUnit_Framework_TestCase;
-
 use Application\Service\CurrencyConverter;
 
 class CurrencyConverterTest extends PHPUnit_Framework_TestCase
