@@ -38,7 +38,7 @@ class Module implements ConsoleBannerProviderInterface, ConsoleUsageProviderInte
     {         
         return
         "==---------------------------------------------------------==\n" .         
-        "        Welcome to AW Reporting                              \n" .
+        "        Welcome to AW Reporting Sample                              \n" .
         "        Basic Usage: php index.php show merchant <merchantID> <currency>.      \n".      
         "==---------------------------------------------------------==\n" .         
         "Version 0.1\n"             ;     
