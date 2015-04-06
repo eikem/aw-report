@@ -9,10 +9,10 @@ git clone https://github.com/eikem/aw-report.git
 
 
 #Usage
-Open command line, change into the public folder. You now got the following options:
+Open command line and change into the public folder. You now got the following options:
 
 To show both options to run the program, enter:
-    php index.php 
+    index.php 
 
 To show all transaction from a merchant with the id 1 enter:
     php index.php show merchant 1
