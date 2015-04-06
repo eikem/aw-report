@@ -2,7 +2,6 @@
 namespace ApplicationTest;
 
 use PHPUnit_Framework_TestCase;
-
 use Application\Service\ValueParser;
 
 class ValueParserTest extends PHPUnit_Framework_TestCase
