@@ -5,7 +5,7 @@ This is a Command line program to convert a list of transactions from one curren
 
 ### GIT
 
-git clone https://github.com/eikem/aw-report.git
+    git clone https://github.com/eikem/aw-report.git
 
 
 #Usage
