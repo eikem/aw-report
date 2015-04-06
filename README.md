@@ -3,7 +3,7 @@ This is a Command line program to convert a list of transactions from one curren
 
 # Installation
 
-## GIT
+### GIT
 
 git clone https://github.com/barbushin/php-console.git php-console
 
