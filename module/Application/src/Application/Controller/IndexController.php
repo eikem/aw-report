@@ -22,7 +22,7 @@ class IndexController extends AbstractActionController
     */
     protected $transactionTable;
     
-       /**
+   /**
      * Array which stores ISO currency and amount 
      *
      * @var array
