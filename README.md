@@ -12,7 +12,7 @@ git clone https://github.com/eikem/aw-report.git
 ----------------------------
 Open command line, change into the public folder and enter either:
 
-php index.php 
+    php index.php 
 - This will show you the 2 options
 
 php index.php show merchant <id> <currency>
