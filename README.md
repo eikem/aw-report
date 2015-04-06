@@ -2,11 +2,13 @@
 This is a Command line program to convert a list of transactions from one currency to another and to calculate their total value. The program can either show a list for a specific merchant id or show all the transactions from all the merchants.
 
 # Installation
+To install the program, you can clone the repository and manually invoke composer using the shipped composer.phar
 
-### GIT
-
-    git clone https://github.com/eikem/aw-report.git
-
+    cd my/project/dir
+    git clone git://github.com/eikem/aw-report.git
+    cd aw-report
+    php composer.phar self-update
+    php composer.phar install
 
 #Usage
 Open command line and change into the public folder. You now got the following options:
